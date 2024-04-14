@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leathercraft Customs</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Leathercraft Customs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Apr 2024 15:36:58 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Sat, 13 Apr 2024 15:36:58 +0100</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>Where can I be found? I can be found with samples of my work on Instagram.</description>
+    </item>
+    <item>
+      <title>Samples</title>
+      <link>http://localhost:1313/samples/</link>
+      <pubDate>Sat, 13 Apr 2024 15:36:53 +0100</pubDate>
+      <guid>http://localhost:1313/samples/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 13 Apr 2024 15:36:43 +0100</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

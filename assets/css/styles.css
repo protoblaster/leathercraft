@@ -1,0 +1,49 @@
+/* import fonts from google */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+
+/* variables for colors */
+:root {
+    --bg-main: #ffffff;
+    --bg-photo: #c0b2b2;
+    --fg-color: #000000;
+    --nav-fg: #000000;
+    --nav-fg-hover: #0077ff;
+}
+
+.site-header h1 {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    font-family: "Lora", sans-serif;
+    font-size: larger;
+}
+
+a {
+    color: var(--nav-fg);
+}
+
+a:hover {
+    color: var(--nav-fg-hover);
+}
+
+.index-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-photo);
+}
+
+.site-footer p {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 5%;
+    justify-content: flex-end;
+}
