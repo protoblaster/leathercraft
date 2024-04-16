@@ -1,6 +1,12 @@
 /* import fonts from google */
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+/* heading*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+
+/* content */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+/* navbar */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@1,8..60,300&display=swap');
 
 /* variables for colors */
 :root {
@@ -34,6 +40,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: var(--bg-photo);
+    /*width: auto;*/
 }
 
 .site-footer p {
@@ -46,4 +53,9 @@ nav ul {
     list-style: none;
     gap: 5%;
     justify-content: flex-end;
+}
+
+/* small size for WIP */
+.container {
+    max-width: 768px;
 }
