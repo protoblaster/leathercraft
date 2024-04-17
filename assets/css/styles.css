@@ -10,11 +10,11 @@
 
 /* variables for colors */
 :root {
-    --bg-main: #ffffff;
-    --bg-photo: #c0b2b2;
-    --fg-color: #000000;
-    --nav-fg: #000000;
-    --nav-fg-hover: #0077ff;
+    --bg-main: #282F44;
+    --fg-main: #ECECEC;
+    --nav-fg: #F5D061;
+    --nav-hover: #E6AF2E;
+
 }
 
 .site-header h1 {
@@ -22,9 +22,12 @@
     font-family: "Nunito", sans-serif;
 }
 
+
 body {
     font-family: "Lora", sans-serif;
     font-size: larger;
+    background-color: var(--bg-main);
+    color: var(--fg-main);
 }
 
 a {
@@ -32,7 +35,7 @@ a {
 }
 
 a:hover {
-    color: var(--nav-fg-hover);
+    color: var(--nav-hover);
 }
 
 .index-image {
@@ -40,7 +43,8 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: var(--bg-photo);
-    /*width: auto;*/
+    /* max-width: 100%;
+    height: auto; */
 }
 
 .site-footer p {
@@ -53,9 +57,5 @@ nav ul {
     list-style: none;
     gap: 5%;
     justify-content: flex-end;
-}
-
-/* small size for WIP */
-.container {
-    max-width: 768px;
+    font-family: "Source Serif 4", sans-serif;
 }
