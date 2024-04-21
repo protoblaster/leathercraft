@@ -59,3 +59,27 @@ nav ul {
     justify-content: flex-end;
     font-family: "Source Serif 4", sans-serif;
 }
+
+@media only screen and (min-width: 576px) {
+    .container {
+        max-width: 576px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
